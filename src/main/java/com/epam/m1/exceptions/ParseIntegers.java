@@ -21,7 +21,6 @@ public class ParseIntegers {
         String justWords = "";
 
         StringBuilder myStr = new StringBuilder();
-
         while (words.hasNext()) {
             String next = words.next();
             try  {
@@ -33,11 +32,11 @@ public class ParseIntegers {
             }
             // todo: complete it
         }
-
         justWords = myStr.toString().trim();
 
+
         System.out.println("Sum is " + sum);
-        System.out.println("Just words:" + justWords);
+        System.out.println("Just words: " + justWords);
     }
 }
 
